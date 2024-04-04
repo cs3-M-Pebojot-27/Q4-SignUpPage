@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html> 
+<head>
+    <title>Sign Up Page - Pebojot</title> 
+</head>
+    
+<body> 
+    <form action="mlgp.html" id="signup"> 
+        <p class="signup">Welcome! Sign up here!</p>
+        <hr>
+        <label for="name" id="nameLabel">Name</label>
+        <br>
+        <input type="text" class="namebox" placeholder="What is your name?" name="name" required> 
+        <br>     
+        <label for="username" id="uNameLabel">Username</label>
+        <br> 
+        <input type="text" class="namebox2" placeholder="What is your preferred username?" name="uName" required> 
+        <br>     
+        <label for="password" id="passLabel">Password</label>
+        <br> 
+        <input type="password" class="passBox1" placeholder="Please input your password." name="password" required> 
+        <br>       
+        <label for="password2" id="passLabel2">Confirm Password</label> 
+        <br>
+        <input type="password" class="passBox2" placeholder="Confirm your password here!" name="password2" required> 
+        <br>     
+        <label for="email" id="emailLabel">Email</label>
+        <br>
+        <input type="email" class="emailBox" placeholder="Enter your email (ex: name@gmail.com, name@yahoo.com, etc.)" name="email" required> 
+        <br>       
+        <label for="address" id="addressLabel">Address</label>
+        <br> 
+        <input type="text" class="addressBox" placeholder="Enter your address." name="address" required> 
+        <br>        
+        <label for="interests" id="interestsLabel">User Interests</label> 
+        <br>
+        <textarea id="tArea" class="interestsBox" placeholder="What are your interests? Please list some :)" name="interests" rows="5"></textarea>
+
+        <br>
+        <br>
+        <input type="button" class="btn1" value="SUBMIT"> 
+
+        <input type="button" class="btn2" value="RESET">
+    </form>
+</body>
+
+<style> 
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+    body{
+        font-family:"Poppins"; 
+        background-color: #B0A3D4; 
+    }
+
+    .signup{
+        text-align: center; 
+        font-size: 28px; 
+        font-weight: bold;
+    }
+
+    #nameLabel{
+        font-size: 18px;
+        font-weight: bold;
+        margin: 0 0 0 12px;
+    }
+
+    .namebox{ 
+        width: 95%; 
+        padding: 10px; 
+        margin: 5px 0px 18px 12px; 
+        display: inline-block; 
+        border: none; 
+        background: #FFFF;  
+        border-radius: 10px;
+    }
+
+    .namebox:focus{
+        width: 95%; 
+        padding: 10px; 
+        margin: 5px 0px 18px 12px; 
+        display: inline-block; 
+        border: none; 
+        background: #EAEAEA;   
+        border-radius: 10px;
+    }
+
+    #uNameLabel{
+        font-size: 18px;
+        font-weight: bold;
+        margin: 0 0 0 12px;
+    }
+
+    .namebox2{
+        width: 95%; 
+        padding: 10px; 
+        margin: 5px 0px 18px 12px; 
+        display: inline-block; 
+        border: none; 
+        background: #FFFF; 
+        border-radius: 10px;
+    }
+
+    .namebox2:focus{
+        width: 95%; 
+        padding: 10px; 
+        margin: 5px 0px 18px 12px; 
+        display: inline-block; 
+        border: none; 
+        background: #EAEAEA;   
+        border-radius: 10px;
+    }
+
+    #passLabel{
+        font-size: 18px;
+        font-weight: bold;
+        margin: 0 0 0 12px;
+    }
+
+    .passBox1{
+        width: 95%; 
+        padding: 10px; 
+        margin: 5px 0px 18px 12px; 
+        display: inline-block; 
+        border: none; 
+        background: #FFFF; 
+        border-radius: 10px;
+    }
+    
+    .passBox1:focus{
+        width: 95%; 
+        padding: 10px; 
+        margin: 5px 0px 18px 12px; 
+        display: inline-block; 
+        border: none; 
+        background: #EAEAEA;   
+        border-radius: 10px;
+    }
+
+    #passLabel2{
+        font-size: 18px;
+        font-weight: bold;
+        margin: 0 0 0 12px;
+    }
+
+    .passBox2{
+        width: 95%; 
+        padding: 10px; 
+        margin: 5px 0px 18px 12px; 
+        display: inline-block; 
+        border: none; 
+        background: #FFFF;
+        border-radius: 10px;
+    }
+
+    .passBox2:focus{
+        width: 95%; 
+        padding: 10px; 
+        margin: 5px 0px 18px 12px; 
+        display: inline-block; 
+        border: none; 
+        background: #EAEAEA;   
+        border-radius: 10px;
+    }
+
+    #emailLabel{
+        font-size: 18px;
+        font-weight: bold;
+        margin: 0 0 0 12px;
+    }
+
+    .emailBox{
+        width: 95%; 
+        padding: 10px; 
+        margin: 5px 0px 18px 12px; 
+        display: inline-block; 
+        border: none; 
+        background: #FFFF;
+        border-radius: 10px;
+    }
+
+    .emailBox:focus{
+        width: 95%; 
+        padding: 10px; 
+        margin: 5px 0px 18px 12px; 
+        display: inline-block; 
+        border: none; 
+        background: #EAEAEA;   
+        border-radius: 10px;
+    }
+
+    #addressLabel{
+        font-size: 18px;
+        font-weight: bold;
+        margin: 0 0 0 12px;
+    }
+
+    .addressBox{
+        width: 95%; 
+        padding: 10px; 
+        margin: 5px 0px 18px 12px; 
+        display: inline-block; 
+        border: none; 
+        background: #FFFF;
+        border-radius: 10px;
+    }
+
+    .addressBox:focus{
+        width: 95%; 
+        padding: 10px; 
+        margin: 5px 0px 18px 12px; 
+        display: inline-block; 
+        border: none; 
+        background: #EAEAEA;   
+        border-radius: 10px;
+    }
+
+    #interestsLabel{
+        font-size: 18px;
+        font-weight: bold;
+        margin: 0 0 0 12px;
+    }
+
+    .interestsBox{
+        font-family: "Poppins"; 
+        width: 95%; 
+        padding: 10px; 
+        margin: 5px 0px 18px 12px; 
+        display: inline-block; 
+        border: none; 
+        background: #FFFF;
+        border-radius: 10px;
+    }
+
+    .interestsBox:focus{
+        width: 95%; 
+        padding: 10px; 
+        margin: 5px 0px 18px 12px; 
+        display: inline-block; 
+        border: none; 
+        background: #EAEAEA;   
+        border-radius: 10px;
+    }
+
+    .btn1{
+        font-family: "Poppins"; 
+        margin: 0 0 10px 12px; 
+        background-color: #D14081;
+        font-size: 25px; 
+        border-radius: 10px; 
+        border-color: #D14081; 
+        color: #FFFF; 
+    }
+
+    .btn2{
+        font-family: "Poppins"; 
+        float: right; 
+        margin: 0 30px 10px 0; 
+        background-color: #F9F5E3; 
+        font-size: 25px; 
+        border-radius: 10px; 
+        border-color: #F9F5E3;  
+        color: black; 
+    }
+
+    hr{
+        border-color: black; 
+    }
+</style>
+</html>
+
+
+    
